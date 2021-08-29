@@ -24,7 +24,20 @@ window.onload = function() {
 }
 }
 }
-return domain;
-}
-console
 
+return.domain;
+}
+function dominio2() {
+  let domain = [];
+  for (let pronoun of pronouns) {
+  for (let adjective of adjectives) {
+  for (let noun of nouns) {
+  domain.push(pronoun + adjective + noun);
+  }
+  }
+  }
+  return domain;
+  }
+  console.log(dominio2());
+
+}
